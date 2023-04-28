@@ -9,6 +9,8 @@ GPTQ is SOTA one-shot weight quantization method
 | -------------------------------------------------- | ---- | ---------- | ----------- | --------- | --------- | ------------------- |
 | 7B                                                 |  4  |     128      |    4857.811    |    5.30372   |     0.08795   |         3802.98        |
 | 7B                                                 |  3  |     128      |    4031.780    |    5.61758   |     0.14621   |         3006.24        |
+| 7B                                                 |  2  |     128      |    3253.749    |    4376.23291   |     0.08778   |         2209.54        |
+
 
 
 **Due to Triton's limitations, 3-bit is not supported. If you are using 3bit, please use [cuda branch](https://github.com/qwopqwop200/GPTQ-for-LLaMa/tree/cuda).**
