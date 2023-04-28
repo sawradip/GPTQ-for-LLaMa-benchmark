@@ -8,6 +8,7 @@ GPTQ is SOTA one-shot weight quantization method
 | [LLaMA](https://arxiv.org/abs/2302.13971)       | Bits | group-size |   max memory(MiB) | c4(PPL)  | c4(Median) |  checkpoint size(MB) |
 | -------------------------------------------------- | ---- | ---------- | ----------- | --------- | --------- | ------------------- |
 | 7B                                                 |  4  |     128      |    4857.811    |    5.30372   |     0.08795   |         3802.98        |
+| 7B                                                 |  3  |     128      |    4031.780    |    5.61758   |     0.14621   |         3006.24        |
 
 
 **Due to Triton's limitations, 3-bit is not supported. If you are using 3bit, please use [cuda branch](https://github.com/qwopqwop200/GPTQ-for-LLaMa/tree/cuda).**
